@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diego Marques de Carvalho — Consultoria em Inteligência Artificial, Machine Learning, Analytics e Educação. Mestre em Ciência da Computação, Doutorando UFABC.">
+  <meta name="author" content="Diego Marques de Carvalho">
+  <meta property="og:title" content="Diego Marques de Carvalho — Consultoria em IA">
+  <meta property="og:description" content="Inteligência Artificial aplicada a negócios e educação. Machine Learning, Analytics, Engenharia de Prompt e Estratégia.">
+  <meta property="og:image" content="image/diego-carvalho.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/jpeg" href="image/diego-carvalho.jpg">
+  <title>Diego Marques de Carvalho — Consultoria em Inteligência Artificial</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-mark">
+      <span class="preloader-logo">diego<span class="accent">.ai</span></span>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Barra de progresso de leitura -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navegação frosted glass -->
+  <nav class="nav" id="nav" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo" data-magnetic>
+        <span class="logo-dot"></span>diego<span class="accent">.ai</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#trajetoria" class="nav-link">Trajetória</a></li>
+        <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+        <li><a href="#pesquisa" class="nav-link">Pesquisa</a></li>
+      </ul>
+      <a href="#contato" class="nav-cta" data-magnetic>Vamos conversar</a>
+      <button class="nav-burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menu mobile em tela cheia -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul>
+      <li style="--i:0"><a href="#inicio" class="mobile-link">Início</a></li>
+      <li style="--i:1"><a href="#sobre" class="mobile-link">Sobre</a></li>
+      <li style="--i:2"><a href="#servicos" class="mobile-link">Serviços</a></li>
+      <li style="--i:3"><a href="#trajetoria" class="mobile-link">Trajetória</a></li>
+      <li style="--i:4"><a href="#experiencia" class="mobile-link">Experiência</a></li>
+      <li style="--i:5"><a href="#pesquisa" class="mobile-link">Pesquisa</a></li>
+      <li style="--i:6"><a href="#contato" class="mobile-link mobile-link-cta">Vamos conversar</a></li>
+    </ul>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" data-theme="dark">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      <div class="hero-content" id="heroContent">
+        <p class="hero-eyebrow reveal">Consultoria em Inteligência Artificial</p>
+        <h1 class="hero-title">
+          <span class="reveal">Diego Marques</span>
+          <span class="reveal">de Carvalho<span class="accent">.</span></span>
+        </h1>
+        <p class="hero-typeline reveal">
+          <span class="type-prefix"></span><span id="typewriter"></span><span class="type-caret">|</span>
+        </p>
+        <p class="hero-sub reveal">
+          Mestre em Ciência da Computação, doutorando pela UFABC e especialista em
+          IA&nbsp;&amp;&nbsp;Analytics. Ajudo empresas e instituições a transformar dados
+          em decisões — com uma visão construída em duas décadas entre tecnologia,
+          educação e negócios.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contato" class="btn btn-primary" data-magnetic>Solicitar consultoria</a>
+          <a href="#sobre" class="btn btn-ghost" data-magnetic>Conhecer a trajetória <span class="arrow">→</span></a>
+        </div>
+        <div class="hero-meta reveal">
+          <div class="meta-item"><strong>UFABC</strong><span>Doutorando · Mestre</span></div>
+          <div class="meta-divider"></div>
+          <div class="meta-item"><strong>MBA IA</strong><span>480h · Analytics</span></div>
+          <div class="meta-divider"></div>
+          <div class="meta-item"><strong>SBC 2025</strong><span>2º lugar Apps.Edu</span></div>
+        </div>
+      </div>
+      <a href="#sobre" class="hero-scroll" aria-label="Rolar para baixo">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section section-light" id="sobre" data-theme="light">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow reveal">Sobre</p>
+          <h2 class="section-title reveal">Ciência, dados e uma carreira <span class="gradient-text">sem caixas</span>.</h2>
+          <p class="section-lead reveal">
+            Uma trajetória rara que cruza computação, estatística, comunicação e pedagogia —
+            para resolver problemas complexos por ângulos que a especialização isolada não alcança.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-photo reveal" data-tilt>
+            <div class="photo-frame">
+              <img src="image/diego-carvalho.jpg" alt="Diego Marques de Carvalho" loading="lazy">
+              <div class="photo-ring" aria-hidden="true"></div>
+            </div>
+            <div class="photo-badge">
+              <span class="badge-dot"></span> Professor e consultor · São Paulo
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p class="reveal">
+              <strong>Doutorando em Ensino de História das Ciências e da Matemática (UFABC)</strong> e
+              <strong>Mestre em Ciência da Computação</strong>, investigo como pessoas aprendem estatística
+              por meio do desenvolvimento de habilidades complexas — e levo essa ciência para dentro de
+              projetos aplicados de Inteligência Artificial, conectando teoria computacional e prática real.
+            </p>
+            <p class="reveal">
+              Sou professor no <strong>Centro Universitário Fundação Santo André</strong> e na
+              <strong>UNICID</strong>, onde ministro disciplinas como Fundamentos de IA, Engenharia de Prompt
+              e Aplicações em IA, Ciência de Dados e Análise de Dados. Coordeno também o Núcleo de
+              Educação a Distância da CUFSA, unindo tecnologia e estratégia pedagógica.
+            </p>
+            <p class="reveal">
+              Com graduações em <strong>Comunicação Social</strong>, <strong>Pedagogia</strong> e
+              <strong>Matemática</strong>, além de MBA em <strong>Inteligência Artificial e Analytics</strong>,
+              lidero projetos e consultorias com uma abordagem genuinamente interdisciplinar —
+              já para marcas como <strong>Banco do Brasil</strong>, <strong>iG</strong> e
+              <strong>Aymoré Financeira</strong>.
+            </p>
+
+            <ul class="about-tags reveal">
+              <li>Inteligência Artificial</li>
+              <li>Machine Learning</li>
+              <li>Analytics</li>
+              <li>Estatística</li>
+              <li>Engenharia de Prompt</li>
+              <li>Educação &amp; EAD</li>
+              <li>Jogos Digitais</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Números -->
+        <div class="stats-grid">
+          <div class="stat reveal">
+            <span class="stat-value" data-count="20" data-suffix="+">0</span>
+            <span class="stat-label">anos entre tecnologia e educação</span>
+          </div>
+          <div class="stat reveal" style="--d:.08s">
+            <span class="stat-value" data-count="10" data-suffix="+">0</span>
+            <span class="stat-label">instituições de ensino</span>
+          </div>
+          <div class="stat reveal" style="--d:.16s">
+            <span class="stat-value" data-count="9" data-suffix="+">0</span>
+            <span class="stat-label">trabalhos científicos</span>
+          </div>
+          <div class="stat reveal" style="--d:.24s">
+            <span class="stat-value" data-count="2">0</span>
+            <span class="stat-label">livros publicados em 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section section-gray" id="servicos" data-theme="light">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow reveal">Serviços</p>
+          <h2 class="section-title reveal">Inteligência Artificial, <span class="gradient-text">aplicada de verdade</span>.</h2>
+          <p class="section-lead reveal">
+            Da estratégia à execução: consultoria, capacitação e desenvolvimento com
+            base científica e visão de negócio.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card reveal" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 4.86L20 7.7l-4 3.9.94 5.5L12 14.5l-4.94 2.6L8 11.6l-4-3.9 5.6-.84z"/><path d="M12 14.5V22"/></svg>
+            </div>
+            <h3>Estratégia &amp; Roadmap de IA</h3>
+            <p>Diagnóstico de maturidade, plano de adoção e governança de IA para empresas que querem começar pelo certo — e escalar com segurança.</p>
+            <span class="card-index">01</span>
+          </article>
+
+          <article class="card reveal" style="--d:.06s" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="12" cy="12" r="2.2"/><circle cx="19" cy="6" r="2.2"/><circle cx="19" cy="18" r="2.2"/><path d="M6.9 7.3l3.3 3.2M6.9 16.7l3.3-3.2M13.9 10.5l3.3-3.2M13.9 13.5l3.3 3.2"/></svg>
+            </div>
+            <h3>Machine Learning &amp; Analytics</h3>
+            <p>Modelos preditivos, análise avançada de dados e dashboards de decisão — com experiência aplicada, incluindo ML na área da saúde.</p>
+            <span class="card-index">02</span>
+          </article>
+
+          <article class="card reveal" style="--d:.12s" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="13" rx="2"/><path d="M8 7h8M8 10.5h5"/><path d="M9 21l3-5 3 5"/></svg>
+            </div>
+            <h3>Engenharia de Prompt &amp; LLMs</h3>
+            <p>Capacitação de times e desenho de aplicações com modelos generativos — disciplina que ministro na graduação, traduzida para o dia a dia corporativo.</p>
+            <span class="card-index">03</span>
+          </article>
+
+          <article class="card reveal" style="--d:.18s" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5"/><path d="M4 19h16"/><rect x="7" y="11" width="3" height="5" rx="0.8"/><rect x="12" y="7" width="3" height="9" rx="0.8"/><rect x="17" y="13" width="3" height="3" rx="0.8"/></svg>
+            </div>
+            <h3>Dados &amp; Estatística</h3>
+            <p>Da coleta à decisão: linguagem R, letramento estatístico e métricas que fazem sentido — para equipes que querem parar de achar e começar a saber.</p>
+            <span class="card-index">04</span>
+          </article>
+
+          <article class="card reveal" style="--d:.24s" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 8l10 5 10-5-10-5z"/><path d="M6 10.5V15c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"/><path d="M22 8v6"/></svg>
+            </div>
+            <h3>Educação &amp; Tecnologia</h3>
+            <p>EAD, objetos de aprendizagem e design instrucional com base em pesquisa — coordenação de núcleo de EAD e metodologia premiada pela SBC.</p>
+            <span class="card-index">05</span>
+          </article>
+
+          <article class="card reveal" style="--d:.30s" data-tilt>
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M8 10.5l2.5 1.5L8 13.5zM13 14h3"/></svg>
+            </div>
+            <h3>Jogos &amp; Simulação</h3>
+            <p>Jogos educacionais sérios com metodologia INTERA publicada em conferências internacionais — aprendizagem que engaja e gera evidência.</p>
+            <span class="card-index">06</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRAJETÓRIA ============ -->
+    <section class="section section-dark" id="trajetoria" data-theme="dark">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow reveal">Trajetória</p>
+          <h2 class="section-title reveal">Duas décadas, <span class="gradient-text">uma linha coerente</span>.</h2>
+          <p class="section-lead reveal">
+            Cada etapa — da publicidade à computação, da sala de aula à pesquisa —
+            construiu a base que sustenta a consultoria hoje.
+          </p>
+        </header>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2005</div>
+            <div class="timeline-card">
+              <h3>Comunicação Social — Publicidade e Propaganda</h3>
+              <p>Graduação pela FAPCOM. Direção de arte, web design e campanhas digitais — onde nasce o olhar para pessoas e para o design centrado no usuário.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2007–2010</div>
+            <div class="timeline-card">
+              <h3>Diretor de Arte &amp; Desenvolvedor</h3>
+              <p>ATB Comunicações e HKL Interactive Media: portais, sistemas web e produtos digitais para marcas como iG, Elgin, PGA Brasil e COPEN.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2012</div>
+            <div class="timeline-card">
+              <h3>Docência — Centro Paula Souza</h3>
+              <p>Professor das ETECs: jogos digitais, game art, marketing e produção audiovisual. Depois, coordenação de área e de projetos EAD.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2018–2020</div>
+            <div class="timeline-card">
+              <h3>Mestrado em Ciência da Computação — UFABC</h3>
+              <p>Pesquisa diretrizes para jogos educacionais digitais embasados na teoria sociointeracionista de Vigotski, publicando em conferências IEEE.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2021–2022</div>
+            <div class="timeline-card">
+              <h3>Professor CUFSA &amp; Coordenação de EAD</h3>
+              <p>Sistemas de Informação: Linguagem R, Tecnologias Web, Segurança da Informação. Assumo a coordenação do Núcleo de Educação a Distância.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2022</div>
+            <div class="timeline-card">
+              <h3>Professor UNICID — IA na graduação</h3>
+              <p>Fundamentos de Inteligência Artificial, Engenharia de Prompt e Aplicações em IA, Pensamento Computacional e Sistemas Cliente/Servidor.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2023–2025</div>
+            <div class="timeline-card">
+              <h3>MBA em Inteligência Artificial e Analytics — 480h</h3>
+              <p>UNICSUL, com trabalho final em Machine Learning aplicado à área da saúde. Matemática, estatística e modelos de ponta a ponta.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-card">
+              <h3>Prêmio SBC · IEEE FIE · 2 livros</h3>
+              <p>2º lugar no Apps.Edu (SBC), publicação no IEEE Frontiers in Education (Nashville), capítulo no livro Metodologia INTERA 2.0 e dois livros técnicos publicados.</p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-card">
+              <h3>Doutorado em andamento + Novos desafios</h3>
+              <p>Doutorando UFABC no ensino de estatística e habilidades complexas. Professor na FTT e FESA: Análise de Dados, Ciência de Dados e Inteligência Artificial.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIÊNCIA ============ -->
+    <section class="section section-light" id="experiencia" data-theme="light">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow reveal">Experiência</p>
+          <h2 class="section-title reveal">Onde a prática <span class="gradient-text">acontece</span>.</h2>
+        </header>
+
+        <div class="bento-grid">
+          <div class="bento bento-wide reveal">
+            <h3>Docência &amp; gestão acadêmica</h3>
+            <div class="inst-grid">
+              <div class="inst"><strong>CUFSA</strong><span>Professor · Coord. EAD</span></div>
+              <div class="inst"><strong>UNICID</strong><span>Professor — IA &amp; Dev</span></div>
+              <div class="inst"><strong>Paula Souza</strong><span>Professor · Coord. Projetos</span></div>
+              <div class="inst"><strong>FTT</strong><span>Dados &amp; IA</span></div>
+              <div class="inst"><strong>FESA</strong><span>Ensino Superior</span></div>
+              <div class="inst"><strong>UFABC</strong><span>Mestre · Doutorando</span></div>
+            </div>
+          </div>
+
+          <div class="bento reveal" style="--d:.1s">
+            <h3>Marcas atendidas</h3>
+            <p class="bento-brands">Banco do Brasil · iG · Aymoré Financeira · Elgin · PGA Brasil · COPEN · Orbe Investimentos · Aliança Cultural Brasil–Japão</p>
+          </div>
+
+          <div class="bento reveal" style="--d:.16s">
+            <h3>Disciplinas de IA ministradas</h3>
+            <ul class="bento-list">
+              <li>Fundamentos de Inteligência Artificial</li>
+              <li>Engenharia de Prompt e Aplicações em IA</li>
+              <li>Ciência de Dados &amp; Análise de Dados</li>
+              <li>Pensamento Computacional</li>
+            </ul>
+          </div>
+
+          <div class="bento bento-wide reveal" style="--d:.22s">
+            <h3>Formação continuada</h3>
+            <p>MBA em IA e Analytics (480h) · MBA Lean Management · Psicopedagogia Clínica e Institucional · Gestão Estratégica em Educação (FIOCRUZ) · Licenciaturas em Matemática e Pedagogia · +3.900 horas de especializações.</p>
+          </div>
+        </div>
+
+        <div class="marquee reveal" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Inteligência Artificial</span><i>◆</i>
+            <span>Machine Learning</span><i>◆</i>
+            <span>Analytics</span><i>◆</i>
+            <span>Estatística</span><i>◆</i>
+            <span>Engenharia de Prompt</span><i>◆</i>
+            <span>Educação Digital</span><i>◆</i>
+            <span>Jogos Educacionais</span><i>◆</i>
+            <span>Data Science</span><i>◆</i>
+            <span>Inteligência Artificial</span><i>◆</i>
+            <span>Machine Learning</span><i>◆</i>
+            <span>Analytics</span><i>◆</i>
+            <span>Estatística</span><i>◆</i>
+            <span>Engenharia de Prompt</span><i>◆</i>
+            <span>Educação Digital</span><i>◆</i>
+            <span>Jogos Educacionais</span><i>◆</i>
+            <span>Data Science</span><i>◆</i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PESQUISA / PUBLICAÇÕES ============ -->
+    <section class="section section-dark" id="pesquisa" data-theme="dark">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow reveal">Pesquisa &amp; Publicações</p>
+          <h2 class="section-title reveal">Ciência por trás <span class="gradient-text">de cada entrega</span>.</h2>
+          <p class="section-lead reveal">
+            Arraste para explorar livros, artigos IEEE, capítulos e prêmios.
+          </p>
+        </header>
+      </div>
+
+      <div class="pubs-scroller" id="pubsScroller">
+        <article class="pub-card reveal">
+          <span class="pub-tag">Livro · 2025</span>
+          <h3>Redes sem Fio</h3>
+          <p>Obra técnica publicada pelo Centro Universitário Cidade Verde — 80 páginas sobre infraestrutura e comunicação sem fio.</p>
+          <span class="pub-icon">📘</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.06s">
+          <span class="pub-tag">Livro · 2025</span>
+          <h3>Segurança em DevOps</h3>
+          <p>84 páginas unindo cultura DevOps e práticas de segurança — do pipeline à operação.</p>
+          <span class="pub-icon">🛡️</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.12s">
+          <span class="pub-tag">IEEE FIE · 2025</span>
+          <h3>Guidelines for Digital Educational Games Based on Vygotsky</h3>
+          <p>Diretrizes para desenvolvimento de jogos educacionais embasados na teoria sociointeracionista — Nashville, EUA.</p>
+          <span class="pub-icon">🌍</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.18s">
+          <span class="pub-tag">Capítulo · 2025</span>
+          <h3>Metodologia INTERA 2.0</h3>
+          <p>Diretrizes INTERA para design de jogos educacionais digitais — Capítulo do livro organizado por Braga, Dotta &amp; Pimentel (Editora CRV).</p>
+          <span class="pub-icon">📐</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.24s">
+          <span class="pub-tag">Artigo · 2024</span>
+          <h3>Equivalence-based Instruction and the Teaching of Statistics</h3>
+          <p>Revisão sistemática de literatura sobre instrução por equivalência no ensino de estatística — Caderno Pedagógico, v. 21.</p>
+          <span class="pub-icon">📊</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.30s">
+          <span class="pub-tag">IEEE FIE · 2019</span>
+          <h3>Procedural Evaluation in Digital Games via Non-Linear Metrics</h3>
+          <p>Módulo de avaliação procedural de aprendizagem em jogos digitais com métricas não lineares — Cincinnati, EUA.</p>
+          <span class="pub-icon">🎮</span>
+        </article>
+        <article class="pub-card reveal" style="--d:.36s">
+          <span class="pub-tag">Artigo · 2022</span>
+          <h3>Tecnologias Digitais e Variabilidade Estatística</h3>
+          <p>Comparação entre tecnologias digitais e método tradicional para compreensão de variabilidade — Revista Paradigma, v. 2.</p>
+          <span class="pub-icon">📈</span>
+        </article>
+        <article class="pub-card pub-card-gold reveal" style="--d:.42s">
+          <span class="pub-tag pub-tag-gold">Prêmio · 2025</span>
+          <h3>2º lugar — Apps.Edu (SBC)</h3>
+          <p>Segundo lugar no Concurso Integrado de Desenvolvimento de Soluções de Tecnologia e Objetos de Aprendizagem para a Educação.</p>
+          <span class="pub-icon">🏆</span>
+        </article>
+      </div>
+
+      <div class="container">
+        <div class="research-note reveal">
+          <p>
+            Pesquisa central: <strong>o ensino de estatística por meio do desenvolvimento de habilidades
+            complexas</strong>, amparado pela teoria da equivalência de estímulo — com projetos aplicados de IA
+            financiados pela CAPES e colaboração internacional em ciência polar (SCAR / Polar 2018, Davos).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section section-light contact" id="contato" data-theme="light">
+      <div class="container">
+        <p class="section-eyebrow reveal">Contato</p>
+        <h2 class="contact-title reveal">Vamos dar o <span class="gradient-text">próximo passo</span>?</h2>
+        <p class="contact-sub reveal">
+          Consultoria em IA, treinamentos corporativos, palestras e parcerias acadêmicas.
+          Conversemos sobre como a inteligência artificial pode trabalhar pela sua organização.
+        </p>
+        <div class="contact-actions reveal">
+          <a href="http://lattes.cnpq.br/3269138001048812" target="_blank" rel="noopener" class="btn btn-primary" data-magnetic>Currículo Lattes</a>
+          <a href="https://scholar.google.com.br/citations?user=VnLPJsoAAAAJ&hl=pt-BR" target="_blank" rel="noopener" class="btn btn-dark" data-magnetic>Google Scholar</a>
+          <a href="https://www.facebook.com/dmdecarvalho" target="_blank" rel="noopener" class="btn btn-dark" data-magnetic>Facebook</a>
+        </div>
+        <div class="contact-meta reveal">
+          <span>Lattes ID <strong>3269138001048812</strong></span>
+          <span class="divider"></span>
+          <span>Santo André · São Paulo · Brasil</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="nav-logo"><span class="logo-dot"></span>diego<span class="accent">.ai</span></a>
+      <p>© 2026 Diego Marques de Carvalho — Consultoria em Inteligência Artificial.</p>
+      <p class="footer-fine">Doutorando UFABC · Mestre em Ciência da Computação · MBA IA &amp; Analytics</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
